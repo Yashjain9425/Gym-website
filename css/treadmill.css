@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+}
+.h{
+    height: 600px;
+    width: 100%;
+}
+#tread{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: -8%;
+    left: 553px;
+}
+#treadlogo{
+    filter: invert(100%);
+    position: absolute;
+    top: -2%;
+    left: 85%;
+}
+.line1{
+    position: absolute;
+    top: 131px;
+    left: 366px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line2{
+    position: absolute;
+    top: 250px;
+    left: 93px;
+    font-size: 35px;
+}
+.imp{
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 54px;
+    font-size: 30px;
+    text-decoration: underline royalblue;
+}
+.treadrun{
+    position: relative;
+    animation-name: yash;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes yash{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1400px;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    h1{
+        position: absolute;
+        font-size: 50px;
+        top: 8%;
+        left: 40%;
+    }
+    .container{
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    p1{
+        color: brown;
+    }
+    .but{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+    .but:hover{
+        background-color: brown;
+    }
+</style>
+<body>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <form action="#">
+            <label for="#">First name :</label>
+            <input type="text" placeholder="write here"><br><br>
+            <label for="#">Last Name : </label>
+            <input type="text" placeholder="write here"><br><br>
+            <label for="#">Date of birth :</label>
+            <input type="date"><br><br>
+            <label for="#"> phone number :</label>
+            <input type="number" placeholder="..........">
+            <label for="#"> whatsapp number :</label>
+            <input type="number" placeholder=".........."><br><br>
+            <label for="#">gender :</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female"> Female</label>
+            <input type="radio" name="gender" id="Other">
+            <label for="Other"> Other</label>
+            <br><br>
+            <p1>Subscription Fees</p1>
+            <p>1 month just for = Rs1000</p>
+            <p>3 month (save Rs500) for = Rs2500</p>
+            <p>12 month (save Rs3000) for = Rs9000</p><br>
+            <label for="#">Subscription :</label>
+            <input type="radio" name="Subscription" id="1 month">
+            <label for="1 month"> 1 month</label>
+            <input type="radio" name="Subscription" id="3 month">
+            <label for="3 month"> 3 month</label>
+            <input type="radio" name="Subscription" id="12 month">
+            <label for="12 month"> 12 month</label>
+            <br><br>
+            <button class="but" type="reset">Reset</button>
+            <button class="but" type="submit">Submit</button>
+
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>

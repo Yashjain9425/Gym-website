@@ -1,0 +1,169 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    background-image: url(/img/dumbbell-g08df87657_1920.jpg);
+    background-repeat: no-repeat;
+}
+.left{
+    background-color: black;
+    display: inline-block;
+    border: 2px solid black;
+    top: 20px;
+    left: 34px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+}
+.left img{
+    width: 80px;
+    filter: invert(100%);
+}
+.mid{
+    background-color: black;
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid black;
+    position: fixed;
+    top: -14px;
+    left: 35%;
+}
+.right{
+    background-color: black;
+    display: inline-block;
+    top: 20px;
+    right: 34px;
+    position: absolute;
+    border: 2px solid black;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.btu{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btu:active{
+    color: white;
+}
+.btu:hover{
+    background-color: rgb(58, 57, 57);
+}
+.container{
+    border: 0px solid white;
+    margin: 99px;
+    padding: 9px;
+}
+h1{
+    font-size: 47px;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    background-color: black;
+    color: white;
+}
+.imggg{
+    margin: 0px;
+    padding-top: 256px;
+   padding-left: 60px;
+   padding-right: 60PX;
+   border: 0px solid white;
+   border-top: 30px;
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   justify-content: space-between;
+    color: white;
+   height: 400px;
+}
+.heading_line{
+    color: black;
+    padding-left: 450px;
+    padding-right: 650px;
+    font-size: 50px;
+    left: 30%;
+}
+.Things_to_do_1{
+    display: flex;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.a{
+    transition: all 1s ;
+}
+.a:hover{
+    transform: scale(1.1);
+}
+.b{
+    transition: all 1s ;
+}
+.b:hover{
+    transform: scale(1.1);
+}
+
+.dum{
+    color: black;
+    font-size: 25px;
+}
+.tread{
+    color: black;
+    font-size: 25px;
+}
+.bicycle{
+    color: black;
+    font-size: 25px;
+}
+.leg_curl{
+    color: black;
+    font-size: 25px;
+}
+.Things_to_do_2{
+    display: flex;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.deadlift{
+    color: black;
+    font-size: 25px;
+}
+.pullup{
+    color: black;
+    font-size: 25px;
+}
+.cross_cable{
+    color: black;
+    font-size: 25px;
+}
+.rope{
+    color: black;
+    font-size: 25px;
+}
